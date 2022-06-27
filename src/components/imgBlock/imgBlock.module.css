@@ -1,0 +1,14 @@
+.image{
+    width: 100vw;
+    /* transform: rotate(180deg); */
+}
+
+.divImg{
+    position: absolute;
+    width: 30%;
+    top: 220px;
+    left: 100px;
+}
+.divImg h1{
+    font-size: 52px;
+}

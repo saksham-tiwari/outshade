@@ -1,0 +1,59 @@
+.img{
+    width: 70%;
+    padding: 20px;
+}
+.card{
+    width: 15%;
+    /* border: 1px black solid; */
+    padding-top: 5px ;
+    margin: 15px;
+    box-shadow: 2px 3px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+
+}
+
+.card>div{
+    /* background-color: #672bbd; */
+    /* color: white; */
+    padding:6px;
+    border-radius: 0px 0px 10px 10px;
+    /* padding-top: 80px; */
+}
+.card2{
+    padding-top: 0;
+    width: 20%;
+    height: 340px;
+    border-radius: 0;
+}
+.card2>div{
+    border-radius: 0;
+    padding-top: 30px;
+}
+
+.card2 hr{
+    width: 60%;
+    margin-left: 20%;
+}
+.card2>ul{
+    list-style: none;
+    /* margin-left: -20px; */
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+    line-height: 2;
+    padding: 10px 10px;
+}
+.card:hover{
+    box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.36);
+}
+
+.card>div:hover{
+    color: white;
+    background-color: #672bbd;
+
+    /* background-image: url("../../assets/cardbg.png");
+    background-repeat: no-repeat;
+    background-position: -20px 0px;
+    background-size: 300px; */
+    transition: all 200ms linear;
+}
